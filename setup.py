@@ -29,6 +29,7 @@ setup(
     install_requires=[
         'fanstatic',
         'js.jquery',
+        'js.jquery_datatables',
         'setuptools',
         ],
     entry_points={
