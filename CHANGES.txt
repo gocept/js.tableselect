@@ -1,7 +1,7 @@
 CHANGES
 *******
 
-0.2 (unreleased)
+0.2 (2013-09-18)
 ================
 
 - Add support for overriding Language options (Translations).
