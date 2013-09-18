@@ -15,6 +15,7 @@ var tableselect = {};
         var options = {
             "aaData": tableselect[original.attr('id')]['aaData'],
             "aoColumns": tableselect[original.attr('id')]['aoColumns'],
+            "oLanguage": tableselect[original.attr('id')]['oLanguage'],
             "bFilter": true,
             "bAutoWidth": false,
             "sScrollY": "300px",
