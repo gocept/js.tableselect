@@ -4,8 +4,6 @@ CHANGES
 0.4 (unreleased)
 ================
 
-- Nothing changed yet.
-
 - Migrate to Github.
 
 

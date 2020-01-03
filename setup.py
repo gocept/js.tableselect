@@ -5,12 +5,16 @@ version = '0.4.dev0'
 
 
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    """Read in file content."""
+    with open(os.path.join(os.path.dirname(__file__), *rnames)) as f:
+        return f.read()
+
 
 long_description = (
-    read('README.txt')
+    read('README.rst')
     + '\n' +
-    read('CHANGES.txt'))
+    read('CHANGES.rst'))
+
 
 setup(
     name='js.tableselect',
@@ -31,10 +35,10 @@ setup(
         'js.jquery',
         'js.jquery_datatables',
         'setuptools',
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'namespace = js.tableselect:library',
-            ],
-        },
-    )
+        ],
+    },
+)
