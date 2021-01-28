@@ -1,6 +1,9 @@
-from fanstatic import Library, Resource
+from fanstatic import Library
+from fanstatic import Resource
 from js.jquery import jquery
-from js.jquery_datatables import jquery_datatables, fixed_header
+from js.jquery_datatables import fixed_header
+from js.jquery_datatables import jquery_datatables
+
 
 library = Library('namespace', 'resources')
 
