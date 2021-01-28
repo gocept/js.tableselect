@@ -8,4 +8,3 @@ want these resources to be included on a page::
   >>> tableselect.need()
 
 This already includes the respective css files.
-
