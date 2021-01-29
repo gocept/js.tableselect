@@ -1,0 +1,15 @@
+[run]
+branch = True
+source = js.tableselect
+
+[report]
+precision = 2
+fail_under = 100
+
+[html]
+directory = coverage-report
+
+[paths]
+source =
+   js/tableselect
+   .tox/*/lib/python*/site-packages/js/tableselect
